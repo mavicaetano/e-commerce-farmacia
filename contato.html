@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DEVinPharma - Todos os remédios</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+        <link rel="manifest" href="/images/site.webmanifest">
+        <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header>
+            <section>
+                <img src="https://images2.imgbox.com/c0/7a/IBRioV2S_o.png" alt="Logo">
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Todos os remédios</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                    <li>Sobre nós</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="texto-formulario">
+                <h1>Fale conosco</h1>
+                <p>Preencha o formulário para entrar em contato com a nossa equipe.</p>
+            </section>
+            <form name="contato">
+                <label for="contato-nome">Nome</label>
+                    <input type="text" placeholder="Digite seu nome" id="contato-nome"/>
+                <label for="contato-telefone">Telefone</label>
+                    <input type="tel" placeholder="Digite seu telefone com DDD" id="contato-telefone"/>
+                <label for="contato-email">E-mail</label>
+                    <input type="email" placeholder="Digite seu email" id="contato-email"/>
+                <label for="assunto">Assunto</label>
+                    <select>
+                        <option value="">Selecione</option>
+                        <option value="Duvidas">Dúvidas</option>
+                        <option value="Sugestoes">Sugestões</option>
+                        <option value="Orcamento">Orçamento</option>
+                        <option value="Parcerias">Parcerias</option>
+                        <option value="trabalheConosco">Trabalhe conosco</option>
+                    </select>
+                <label for="sua-mensagem">Sua mensagem</label>
+                    <textarea rows="10" id="sua-mensagem"></textarea>
+                <input type="checkbox" id="orcamento"/>
+                <label for="orcamento">Esta mensagem é sobre um orçamento</label>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
