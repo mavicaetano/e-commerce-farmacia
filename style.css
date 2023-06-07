@@ -1,3 +1,81 @@
+* {
+    font-family: Lato, sans-serif;
+}
+
+header {
+    background-color: #F7F7F7;
+}
+
 body {
     background-color: #F9F9FB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: static;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav-menu {
+    border-top: 1px solid #E0E6E2;
+    box-shadow: 0 4px 4px rgba(0,0,0,.05);
+}
+
+.item-menu {
+    padding: 1%;
+    background-image: linear-gradient(to right, #F5921E, #252A95);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    font-size: 14px;
+    font-style: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    text-align: center;
+}
+
+.best-sellers {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+
+.card-medicine {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    border-top: 1px solid #E0E6E2;
+    box-shadow: 0 2px 2px rgba(0,0,0,.05);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 40px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: small;
+    color: #888897;
 }
