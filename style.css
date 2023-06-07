@@ -52,6 +52,7 @@ a {
     justify-content: space-evenly;
     margin: 0;
     text-align: center;
+    align-self: center;
 }
 
 .best-sellers {
@@ -60,6 +61,15 @@ a {
     margin: 3rem;
 }
 
+.all-medicines {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
 .card-medicine {
     border: 1px solid #E0E6E2;
     padding: 1%;
@@ -79,7 +89,7 @@ a {
 .footer {
     border-top: 1px solid #E0E6E2;
     box-shadow: 0 2px 2px rgba(0,0,0,.05);
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
