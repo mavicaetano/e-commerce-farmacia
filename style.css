@@ -54,12 +54,6 @@ a {
     text-align: center;
 }
 
-/*
-.flex-link {
-    display: flex;
-}
-*/
-
 .best-sellers {
     display: flex;
     justify-content: space-evenly;
