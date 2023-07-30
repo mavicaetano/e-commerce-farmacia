@@ -1,5 +1,5 @@
 * {
-    font-family: Lato, sans-serif;
+    font-family: Lato, Arial, sans-serif;
 }
 
 header {
@@ -62,20 +62,22 @@ a {
 }
 
 .all-medicines {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 .card-medicine {
     border: 1px solid #E0E6E2;
     margin: 1%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
     display: flex;
-    width: 20%;
+    width: 18rem;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -98,7 +100,14 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 2rem;
-
+    padding: 8px 20px;
+    background-color: rgb(92, 151, 92);
+    color: #e6ffef;
+    border: rgb(92, 151, 92);
+    font-family: Lato, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .footer {
