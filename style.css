@@ -73,7 +73,7 @@ a {
 .card-medicine {
     border: 1px solid #E0E6E2;
     margin: 1%;
-    box-shadow: 2px 2px 2px rgba(0,0,0,.05);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
     display: flex;
     width: 20%;
     flex-direction: column;
@@ -83,7 +83,22 @@ a {
 
 .card-medicine img {
     width: 100%;
-    height: 100%;
+    height: 90%;
+}
+
+.favorite-button {
+    width: 2rem;
+    height: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    align-self: self-end;
+}
+
+.add-to-basket {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+
 }
 
 .footer {
