@@ -18,6 +18,23 @@ a {
     text-decoration: none;
 }
 
+p {
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+
+form {
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.check-orcamento {
+    align-items: flex-start;
+}
+
 .logo {
     position: static;
     margin-right: 5%;
