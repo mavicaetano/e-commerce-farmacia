@@ -166,6 +166,10 @@ select {
     text-align: center;
 }
 
+.card-medicine p {
+    padding: 0;
+}
+
 .card-medicine img {
     width: 100%;
     height: 90%;
@@ -183,12 +187,17 @@ select {
     color: #97154d;
 }
 
+.card-medicine:hover {
+    background-color: #ececec;
+}
+
 .favorite-button {
     width: 2rem;
     height: 2rem;
     padding-right: 1rem;
     padding-top: 1rem;
     align-self: self-end;
+    cursor: pointer;
 }
 
 .favorite-button:hover {
@@ -211,6 +220,20 @@ select {
 
 .add-to-basket:hover {
     background-color: rgb(135, 195, 135);
+}
+
+.text-about p:first-child {
+    padding-top: 2rem;
+}
+
+.text-about p {
+    margin-right: 4rem;
+    text-align: justify;
+    padding-top: 0;
+    line-height: 2;
+    color: gray;
+    
+
 }
 
 .footer {
