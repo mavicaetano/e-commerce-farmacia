@@ -77,6 +77,11 @@ a {
     width: 25%;
 }
 
+.page-title {
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+
 .best-sellers {
     display: flex;
     justify-content: space-evenly;
