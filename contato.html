@@ -56,34 +56,39 @@
             <div class="page-title">
                 <h2>FALE CONOSCO</h2>
             </div>
-            <section id="texto-formulario"> 
-                <p>Preencha o formulário para entrar em contato com a nossa equipe.</p>
-            </section>
-            <form name="contato">
-                <label for="contato-nome">Nome completo*</label>
-                    <input type="text" placeholder="Digite seu nome" id="contato-nome"/>
-                <label for="contato-telefone">Telefone*</label>
-                    <input type="tel" placeholder="Digite seu telefone com DDD" id="contato-telefone"/>
-                <label for="contato-email">E-mail*</label>
-                    <input type="email" placeholder="Digite seu email" id="contato-email"/>
-                <label for="assunto">Assunto*</label>
-                    <select>
-                        <option value="">Selecione</option>
-                        <option value="Duvidas">Dúvidas</option>
-                        <option value="Sugestoes">Sugestões</option>
-                        <option value="Orcamento">Orçamento</option>
-                        <option value="Parcerias">Parcerias</option>
-                        <option value="trabalheConosco">Trabalhe conosco</option>
-                    </select>
-                <label for="sua-mensagem">Sua mensagem*</label>
-                    <textarea rows="10" placeholder="Informe os detalhes e informações adicionais" id="sua-mensagem"></textarea>
-                <div class="check-orcamento">
-                    <input type="checkbox" id="orcamento"/>
-                    <label for="orcamento">Esta mensagem é sobre um orçamento</label>
+            <div class="contact-image">
+                <img src="/images/contactus.svg" alt="Fale conosco">
+            </div>
+            <section id="formulario-corpo">
+                <div id="texto-formulario"> 
+                    <p>Preencha o formulário para entrar em contato com a nossa equipe.</p>
                 </div>
-                <p id="campo-obrigatorio">*Campo de preenchimento obrigatório</p>
-                <input type="submit" value="Enviar" id="form-submit"/>
-            </form>
+                <form name="contato">
+                    <label for="contato-nome">Nome completo*</label>
+                        <input type="text" placeholder="Digite seu nome" id="contato-nome"/>
+                    <label for="contato-telefone">Telefone*</label>
+                        <input type="tel" placeholder="Digite seu telefone com DDD" id="contato-telefone"/>
+                    <label for="contato-email">E-mail*</label>
+                        <input type="email" placeholder="Digite seu email" id="contato-email"/>
+                    <label for="assunto">Assunto*</label>
+                        <select>
+                            <option value="">Selecione</option>
+                            <option value="Duvidas">Dúvidas</option>
+                            <option value="Sugestoes">Sugestões</option>
+                            <option value="Orcamento">Orçamento</option>
+                            <option value="Parcerias">Parcerias</option>
+                            <option value="trabalheConosco">Trabalhe conosco</option>
+                        </select>
+                    <label for="sua-mensagem">Sua mensagem*</label>
+                        <textarea rows="10" placeholder="Informe os detalhes e informações adicionais" id="sua-mensagem"></textarea>
+                    <div class="check-orcamento">
+                        <input type="checkbox" id="orcamento"/>
+                        <label for="orcamento">Esta mensagem é sobre um orçamento</label>
+                    </div>
+                    <p id="campo-obrigatorio">*Campo de preenchimento obrigatório</p>
+                    <input type="submit" value="Enviar" id="form-submit"/>
+                </form>
+            </section>
         </main>
         <footer class="footer">
             <div class="copyright">

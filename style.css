@@ -16,8 +16,9 @@ body {
     background-color: #F9F9FB;
 }
 
-h4 {
-    font-weight: lighter;
+main {
+    align-items: center;
+    margin: 0 auto;
 }
 
 a {
@@ -43,23 +44,57 @@ form {
 }
 
 input[type="text"] {
-    height: 2rem;
+    padding: 0.8rem;
+    border-radius: 100px;
+    border-color: #a4a4ac;
+    border-style: double;
 }
 
 input[type="tel"] {
-    height: 2rem;
+    padding: 0.8rem;
+    border-radius: 100px;
+    border-color: #a4a4ac;
+    border-style: double;
 }
 
 input[type="email"] {
-    height: 2rem;
+    padding: 0.8rem;
+    border-radius: 100px;
+    border-color: #a4a4ac;
+    border-style: double;
 }
 
 select {
-    height: 2rem;
+    padding: 0.8rem;
+    border-radius: 100px;
+}
+
+textarea {
+    padding: 0.8rem;
+    border-radius: 30px;
+    border-color: #a4a4ac;
+    border-style: double;
 }
 
 .check-orcamento {
     align-items: flex-start;
+}
+
+#formulario-corpo {
+    width: 50%;
+}
+
+.contact-image {
+    width: 50%;
+    position: relative;
+    top: 2rem;
+    bottom: 0;
+    right: 2rem;
+    float: right;
+}
+
+.contact-image img {
+    width: 100%;
 }
 
 #campo-obrigatorio {
@@ -84,6 +119,10 @@ select {
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#form-submit:hover {
+    filter: opacity(70%);
 }
 
 .logo {
