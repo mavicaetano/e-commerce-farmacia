@@ -27,12 +27,51 @@ form {
     padding: 2rem 5rem 2rem 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     row-gap: 1rem;
+}
+
+input[type="text"] {
+    height: 2rem;
+}
+
+input[type="tel"] {
+    height: 2rem;
+}
+
+input[type="email"] {
+    height: 2rem;
+}
+
+select {
+    height: 2rem;
 }
 
 .check-orcamento {
     align-items: flex-start;
+}
+
+#campo-obrigatorio {
+    font-size: small;
+    font-style: italic;
+    color: gray;
+    align-items: start;
+    padding: 0;
+}
+
+#form-submit {
+    width: 6rem;
+    display: inline;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 0.8rem;
+    background-color: rgb(15, 0, 131);
+    color: #e6ffef;
+    border: rgb(15, 0, 131);
+    font-family: Lato, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .logo {
