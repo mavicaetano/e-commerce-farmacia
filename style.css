@@ -1,5 +1,11 @@
+
+@font-face {
+    font-family: "Raleway";
+    src: url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;1,200;1,400&display=swap") format("truetype"),
+  }
+
 * {
-    font-family: Lato, Arial, sans-serif;
+    font-family: "Raleway", "Lato", Arial, sans-serif;
 }
 
 header {
@@ -21,6 +27,11 @@ a {
 p {
     padding-top: 2rem;
     padding-left: 5rem;
+    color: gray;
+}
+
+li {
+    font-weight: bold;
 }
 
 form {
@@ -28,6 +39,7 @@ form {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    color: gray;
 }
 
 input[type="text"] {
