@@ -32,18 +32,26 @@ a {
 }
 
 .item-menu {
-    padding: 1%;
-    background-image: linear-gradient(to right, #F5921E, #252A95);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    padding: 0;
+    background-color: #F7F7F7;
+    color: #ffffff;
     display: flex;
     justify-content: space-evenly;
     margin: 0;
     font-size: 14px;
-    font-style: bold;
+    font-weight: bold;
     text-align: center;
     width: 100%;
+    position: relative;
+}
+
+.space-hover:hover {
+    background-image: linear-gradient(to right, #F5921E, #b700b4);
+}
+
+.space-hover:hover .nav-item b {
+    color: #ffffff;
+    transition: color 0.3s;
 }
 
 .nav-item {
@@ -51,8 +59,22 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
     align-self: center;
+    background-image: linear-gradient(to right, #F5921E, #b700b4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.w-25 {
+    width: 25%;
 }
 
 .best-sellers {
@@ -88,12 +110,28 @@ a {
     height: 90%;
 }
 
+.card-medicine a {
+    color: black;
+}
+
+.card-medicine a:visited {
+    color:#70026f;
+}
+
+.card-medicine a:active {
+    color: #97154d;
+}
+
 .favorite-button {
     width: 2rem;
     height: 2rem;
     padding-right: 1rem;
     padding-top: 1rem;
     align-self: self-end;
+}
+
+.favorite-button:hover {
+    filter: opacity(40%);
 }
 
 .add-to-basket {
@@ -108,6 +146,10 @@ a {
     font-weight: bold;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.add-to-basket:hover {
+    background-color: rgb(135, 195, 135);
 }
 
 .footer {
