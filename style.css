@@ -14,11 +14,11 @@ header {
 
 body {
     background-color: #F9F9FB;
+    margin: 0 auto;
 }
 
 main {
     align-items: center;
-    margin: 0 auto;
 }
 
 a {
@@ -283,8 +283,12 @@ textarea {
     padding-top: 0;
     line-height: 2;
     color: gray;
-    
+}
 
+.text-about img {
+    padding: 2rem;
+    float: right;
+    width: 30rem;
 }
 
 .footer {
