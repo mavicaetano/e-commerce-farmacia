@@ -18,7 +18,13 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.contact-page {
+    display: contents;
 }
 
 a {
@@ -84,6 +90,10 @@ textarea {
     width: 50%;
 }
 
+#texto-formulario p {
+    padding-top: 0;
+}
+
 .contact-image {
     width: 50%;
     position: relative;
@@ -127,10 +137,10 @@ textarea {
 
 .logo {
     position: static;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .nav-menu {
@@ -185,33 +195,32 @@ textarea {
 }
 
 .page-title {
-    padding-top: 2rem;
+    align-self: self-start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 5rem;
 }
 
 .best-sellers {
     display: flex;
     justify-content: space-evenly;
-    margin: 3rem;
+    padding: 1rem 3rem 3rem 3rem;
+    gap: 10px;
 }
 
 .all-medicines {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 10px;
+    padding: 1rem 3rem 3rem 3rem;
 }
 .card-medicine {
+    width: 19rem;
     border: 1px solid #E0E6E2;
     margin: 1%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
     display: flex;
-    width: 18rem;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -273,12 +282,11 @@ textarea {
     background-color: rgb(135, 195, 135);
 }
 
-.text-about p:first-child {
-    padding-top: 2rem;
+.text-about {
+    padding: 0 5rem 5rem 0;
 }
 
 .text-about p {
-    margin-right: 4rem;
     text-align: justify;
     padding-top: 0;
     line-height: 2;
