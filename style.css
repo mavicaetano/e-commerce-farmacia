@@ -291,7 +291,7 @@ textarea {
     width: 30rem;
 }
 
-.footer {
+footer {
     border-top: 1px solid #E0E6E2;
     box-shadow: 0 2px 2px rgba(0,0,0,.05);
     position: static;
@@ -299,10 +299,23 @@ textarea {
     bottom: 0;
     width: 100%;
     background-color: #F7F7F7;
-    padding: 40px;
+    padding: 2rem 0 2rem 0;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.map {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .copyright {
+    padding-top: 2rem;
     text-align: center;
     font-size: small;
     color: #888897;
