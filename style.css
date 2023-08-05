@@ -306,53 +306,51 @@ textarea {
 }
 
 .follow-us {
-    text-align-last: center;
-}
-
-.social {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 
+.follow-us p {
+    padding: 0;
+}
+
+/* .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
 .social a {
-    margin: 10px;
+    margin: 0 auto;
 }
 
 .social img {
     width: 3rem;
     padding: 0;
+} */
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 3rem;
 }
 
-.facebook {
+.social p {
+    padding: 0;
+}
+  
+.social div {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
 }
-
-.facebook p {
-    margin: 0;
-}
-
-.instagram {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-
-.instagram p {
-    margin: 0;
-}
-
-.whatsapp {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-
-.whatsapp p {
-    margin: 0;
+  
+.social img {
+    width: 3rem;
+    padding: 0;
 }
 
 footer {
