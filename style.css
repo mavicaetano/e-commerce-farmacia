@@ -289,12 +289,13 @@ textarea {
 }
 
 .text-about {
-    padding: 0 5rem 5rem 0;
+    padding: 0 5rem 0 0;
 }
 
 .text-about p {
     text-align: justify;
     padding-top: 0;
+    padding-bottom: 0;
     line-height: 2;
     color: gray;
 }
@@ -315,27 +316,11 @@ textarea {
     padding: 0;
 }
 
-/* .social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5rem;
-}
-
-.social a {
-    margin: 0 auto;
-}
-
-.social img {
-    width: 3rem;
-    padding: 0;
-} */
-
 .social {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .social p {
