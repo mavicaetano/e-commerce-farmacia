@@ -305,6 +305,56 @@ textarea {
     width: 30rem;
 }
 
+.follow-us {
+    text-align-last: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a {
+    margin: 10px;
+}
+
+.social img {
+    width: 3rem;
+    padding: 0;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.facebook p {
+    margin: 0;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.instagram p {
+    margin: 0;
+}
+
+.whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.whatsapp p {
+    margin: 0;
+}
+
 footer {
     border-top: 1px solid #E0E6E2;
     box-shadow: 0 2px 2px rgba(0,0,0,.05);
@@ -320,6 +370,7 @@ footer p {
     text-align: center;
     font-weight: bold;
     padding-top: 0;
+    padding-left: 0;
 }
 
 .map {
