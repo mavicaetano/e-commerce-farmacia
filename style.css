@@ -194,6 +194,12 @@ textarea {
     width: 25%;
 }
 
+.banner {
+    display: flex;
+    text-align-last: center;
+    padding-top: 1rem;
+}
+
 .page-title {
     align-self: self-start;
     padding-top: 1rem;
